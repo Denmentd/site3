@@ -1,0 +1,154 @@
+*
+{
+	font-family: Open Sans,Arial;
+	color:#454545;
+	line-height: 1.4;
+	margin: auto;
+    max-width: 800px;
+    }
+.ul
+{
+	margin-bottom: : 1em;
+    margin-top:  1em;
+   
+  
+
+}
+.mfw
+{
+	color: #730000
+}
+.wr
+{
+	color: #C0392B;
+	text-decoration: underline;
+}
+
+p
+{
+	text-align: justify;
+
+
+}
+
+.sb
+{
+	color: #0000EE;
+}
+.guy
+{
+	color: #941352;
+
+}
+.kopimi
+{
+	float: right;
+
+  position: relative;
+  left: -50%; /* or right 50% */
+  text-align: left
+}
+.visited
+{
+	color: #941352;
+}
+.visited-maroon
+{
+	color:#85144b;
+	text-decoration: underline
+}
+a
+{
+	color:#0077AA;
+}
+h1
+{
+	font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+
+}
+h2
+{   
+	font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+	filter: contrast(9.59);
+}
+p
+{
+	font-size: 1em
+}
+.sv
+{
+	color:#551a8b;
+}
+
+@-webkit-keyframes colorchange {
+      0% {
+        
+        color: blue;
+      }
+      
+      10% {
+        
+        color: #8e44ad;
+      }
+      
+      20% {
+        
+        color: #1abc9c;
+      }
+      
+      30% {
+        
+        color: #d35400;
+      }
+      
+      40% {
+        
+        color: blue;
+      }
+      
+      50% {
+        
+        color: #34495e;
+      }
+      
+      60% {
+        
+        color: blue;
+      }
+      
+      70% {
+        
+        color: #2980b9;
+      }
+      80% {
+     
+        color: #f1c40f;
+      }
+      
+      90% {
+     
+        color: #2980b9;
+      }
+      
+      100% {
+        
+        color: pink;
+      }
+    }
+.colored
+{
+
+   color:#313131;
+   
+      -webkit-animation:colorchange 20s infinite alternate;
+}
